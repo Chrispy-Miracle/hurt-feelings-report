@@ -1,0 +1,70 @@
+h1 {
+    align-content: center;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 8vw;
+}
+h2 {
+    margin-left: 5vw;
+}
+#line-one {
+    display: flex;
+    text-align: left;
+}
+.text-input {
+    width: 25vw;
+    height: 4vh;
+    margin: 3vh 1vw;
+    flex: 1 0 10%;
+}
+.check-lines {
+    display: flex;
+    margin-left: 10vw;
+}
+.check {
+    margin-right: 4vw;
+    margin-left: 3.5vw;
+    height: 10vh;
+} 
+.check-answers {
+    margin-right: 10vw;
+}
+#reasons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.options {
+    flex:1 0 21.75%;
+}
+#other-area {
+    margin-left: 12.5vw;
+    height: 10vh;
+    width: 75vw;
+    /* font-size: 4vh; */
+    text-align: center;
+}
+#office-use {
+    color: white;
+    background-color: black;
+    width: 90%;
+    margin-left: 5vw;
+    text-align: center;
+}
+#off-ans-area {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+}
+.office-answers {
+    flex: 1 0 37%;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+button {
+    height: 8vh;
+    width: 15vw
+}
